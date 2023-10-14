@@ -1,0 +1,393 @@
+
+.sitename{	
+	color: ghostwhite;
+	font-size: 2.5vw;
+	padding-top: 1px;
+	background-color: rgba(255, 255, 255, 0.2);
+	padding-bottom: 1px;
+	position: relative;
+}
+
+.slogan{
+	font-size: 2vw;
+	padding-bottom: 2px;
+	padding-top: 3px;
+	border-bottom: white 0.5vw solid;
+	margin-bottom: 15px;
+	margin-top: -25px;
+}
+
+.cart{
+	float: left;
+	position: absolute;
+	top: 4.5vw;
+	right: 4vw;
+	width: 75%;
+}
+
+.log{
+	float: right;
+	color: white;
+	position: absolute;
+	top: 2vw;
+	right: 2.5vw;
+	max-width: 100%;
+	padding: 0.5vw;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	border-radius: 3px;
+	background-color: royalblue;
+	font-size: 2vw;
+	font-family: serif;
+	border: none;
+}
+.log:hover{
+	color: orange;
+	background-color: white;
+	border: 1px solid orange;
+}
+
+/*@media screen and (max-width:500px) {
+	.cart{
+		width: 100%;
+	}
+	.sitename{
+		width: 100%;
+	}
+}
+*/
+
+.bg{
+	background-size: 100% 100%;
+	overflow: hidden;
+
+}
+
+.header1{
+	display: block;
+	text-align:center;
+	color: ghostwhite;
+	padding-bottom: 5px;
+	
+}
+
+ul{
+	list-style-type: none;
+}
+
+.ul {
+	margin: -10px;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgba(255, 255, 255, 0.3);
+	margin-top: -15px;
+}
+
+.list{
+	float: left;
+	font-size: 2.1vw;
+	padding-left: 9vw;
+
+}
+
+.list a{
+	text-decoration: none;
+	display: block;
+	color: white;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	border: 2px solid transparent;
+}
+
+.list a:hover{
+	border-radius: 3px;
+	border: 2px solid orange;
+	background-color: white;
+	color: #ffa500;
+}
+
+@media screen and (max-width:500px){
+	.row1{
+		width: 100%;
+	}
+}
+.products{
+	width: 100%;
+		
+}
+
+.row1{
+	float: left;
+	width: 49.3%;
+	position: relative;
+	text-align: center;
+	padding-top: 2vh;
+}
+
+
+
+
+.P1{
+	position: absolute;
+	top: 33%;
+	left: 7%;
+	display: block;
+	font-size: 3vw;
+	max-width: 550px;
+	color: orangered;
+	padding: 1px;
+	border: 2px solid orangered;
+	background-color: white;
+}
+
+.grocery{
+	padding-left: 1.5vw;
+	opacity: 1;
+}
+
+.P2{
+	position: absolute;
+	top: 33%;
+	right: 25%;
+	font-size: 3vw;
+	max-width: 550px;
+	color: orangered;
+	padding: 3px;
+	border: 2px solid orangered;
+	background-color: white;
+}
+
+.row1:hover .grocery{
+	opacity: 0.5;
+}
+.row1:hover .P2{
+	background-color: orangered;
+	color: white;
+	border: 2px solid white;
+}
+
+.row1:hover .veg{
+	opacity: 0.5;
+}
+.row1:hover .P1{
+	background-color: orangered;
+	color: white;
+	border: 2px solid white;
+}
+
+.row2{
+	float: left;
+	width: 49.3%;
+	position: relative;
+	text-align: center;
+	padding-top: 3vh;
+}
+
+.P3{
+	position: absolute;
+	top: 33%;
+	left: 35%;
+	display: block;
+	font-size: 3vw;
+	max-width: 500px;
+	color: orangered;
+	padding: 1px;
+	border: 2px solid orangered;
+	background-color: white;
+}
+
+.beverages{
+	padding-left: 1.5vw;
+	opacity: 1;
+}
+
+.P4{
+	position: absolute;
+	top: 33%;
+	right: 20%;
+	font-size: 3vw;
+	max-width: 500px;
+	color: orangered;
+	padding: 3px;
+	border: 2px solid orangered;
+	background-color: white;
+}
+
+
+.row2:hover .P3{
+	background-color: orangered;
+	color: white;
+	border: 2px solid white;
+}
+
+.row2:hover .snacks{
+	opacity: 0.5;
+}
+.row2:hover .P4{
+	background-color: orangered;
+	color: white;
+	border: 2px solid white;
+}
+.row2:hover .beverages{
+	opacity: 0.5;
+}
+
+.row3{
+	float: left;
+	width: 49.3%;
+	position: relative;
+	text-align: center;
+	padding-top: 3vh;
+}
+
+.P5{
+	position: absolute;
+	top: 33%;
+	left: 13%;
+	display: block;
+	font-size: 3vw;
+	max-width: 500px;
+	color: orangered;
+	padding: 1px;
+	border: 2px solid orangered;
+	background-color: white;
+}
+
+.baby{
+	padding-left: 1.5vw;
+	opacity: 1;
+}
+
+.P6{
+	position: absolute;
+	top: 33%;
+	right: 13%;
+	font-size: 3vw;
+	max-width: 500px;
+	color: orangered;
+	padding: 3px;
+	border: 2px solid orangered;
+	background-color: white;
+}
+
+
+.row3:hover .P5{
+	background-color: orangered;
+	color: white;
+	border: 2px solid white;
+}
+
+.row3:hover .bakery{
+	opacity: 0.5;
+}
+.row3:hover .P6{
+	background-color: orangered;
+	color: white;
+	border: 2px solid white;
+}
+.row3:hover .baby{
+	opacity: 0.65;
+}
+
+.row4{
+	float: left;
+	width: 49.3%;
+	position: relative;
+	text-align: center;
+	padding-top: 3vh;
+	margin-bottom: 3vh;
+}
+
+.P7{
+	position: absolute;
+	top: 33%;
+	left: 17%;
+	display: block;
+	font-size: 3vw;
+	max-width: 500px;
+	color: orangered;
+	padding: 1px;
+	border: 2px solid orangered;
+	background-color: white;
+}
+
+.cleaning{
+	padding-left: 1.5vw;
+	opacity: 1;
+}
+
+.P8{
+	position: absolute;
+	top: 33%;
+	right: 8%;
+	font-size: 3vw;
+	max-width: 500px;
+	color: orangered;
+	padding: 3px;
+	border: 2px solid orangered;
+	background-color: white;
+}
+
+
+.row4:hover .P7{
+	background-color: orangered;
+	color: white;
+	border: 2px solid white;
+}
+
+.row4:hover .beauty{
+	opacity: 0.65;
+}
+.row4:hover .P8{
+	background-color: orangered;
+	color: white;
+	border: 2px solid white;
+}
+.row4:hover .cleaning{
+	opacity: 0.5;
+}
+
+.off{
+	text-align: center;
+	font-size: 3vw;
+	border: 2px solid black;
+}
+.end{
+	text-align: center;	
+	font-size: 2vw;
+}
+.top:hover{
+	color: red;
+}
+.box{
+	float: left;
+	width: 15%;
+	padding-left: 4.5vw;
+	padding-bottom: 25px;
+}
+footer{
+	background-color: #eceeed;
+}
+.footer{
+	margin-top: 20px;
+	font-size: 1.5vw;
+	margin-left: 20vw;
+	margin-right: 15vw;
+	overflow: auto;
+}
+
+.fl{
+	margin-top: -1.5vw;
+	list-style-type: none;
+	padding: 0;
+}
+.li{
+	color: black;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.li:hover{
+	color: royalblue;
+}

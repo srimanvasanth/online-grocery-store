@@ -1,0 +1,129 @@
+body{
+	margin: 0;
+	background-image: url("../Images/bg_login.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 110vh;
+	position: relative;
+}
+
+.cont{
+	align-items: center;
+	border-right: -100px;
+	background-color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 35px;
+	border-radius: 5px;
+	
+}
+
+.icon1{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top: 10%;
+	left: 25%;
+	margin-top: -8vh;
+	margin-bottom: -2vh;
+}
+
+.icon2{
+	width: 90px;
+	height: 90px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -35%);
+	margin-top: -8vh;
+	margin-bottom: -5vh;
+	padding-bottom: -40px;
+	
+}
+
+
+h2{
+	text-align: center;
+	font-family: cursive;
+	margin-top: -5px;
+	margin-bottom: -10px;
+
+}
+
+p{
+	color: orangered;
+	font-weight: bold;
+}
+
+input[type="text"], input[type="password"], input[type="Email"]{
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	font-size: 16px;
+	margin-bottom: -5px;
+	margin-top: -5px;
+}
+
+input[type="submit"]{
+	border: none;
+	outline: none;
+	background-color: royalblue;
+	height: 40px;
+	color: white;
+	width: 100%;
+	font-weight: bold;
+	margin-bottom: 3px;
+	border-radius: 10px;
+}
+
+button{
+	border: none;
+	outline: none;
+	background-color: royalblue;
+	height: 40px;
+	color: white;
+	width: 100%;
+	font-weight: bold;
+	margin-bottom: 3px;
+	border-radius: 10px;
+}
+
+#errorbox{
+	color: indianred;
+	margin-top: 15px;
+	text-align: center;
+}
+
+.register {
+	text-align: center;
+	color: green;
+	margin-bottom: -25px;
+}
+.register:hover{
+	color: orangered;
+}
+
+.home{
+	text-align: center;
+	padding-top: 15px;
+	margin-bottom: -25px;
+	color: darkblue;
+}
+.home:hover{
+	color: orangered;
+}
+a{
+	text-decoration: none;
+}
+
+.login {
+	text-align: center;
+	color: green;
+	margin-bottom: -25px;
+}
+.login:hover{
+	color: orangered;
+}
